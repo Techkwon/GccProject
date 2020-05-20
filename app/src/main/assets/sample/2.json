@@ -1,0 +1,229 @@
+{
+  "msg": "성공",
+  "data": {
+    "totalCount": 43,
+    "product": [
+      {
+        "id": 2002,
+        "name": "여기어때 2002",
+        "thumbnail": "https://gccompany.co.kr/App/thumbnail/thumb_img_21.jpg",
+        "description": {
+          "imagePath": "https://gccompany.co.kr/App/image/img_21.jpg",
+          "subject": "2페이지 첫번째",
+          "price": 30000
+        },
+        "rate": 7.5
+      },
+      {
+        "id": 2141,
+        "name": "여기어때 2141",
+        "thumbnail": "https://gccompany.co.kr/App/thumbnail/thumb_img_22.jpg",
+        "description": {
+          "imagePath": "https://gccompany.co.kr/App/image/img_22.jpg",
+          "subject": "대실 예약가능",
+          "price": 15000
+        },
+        "rate": 7.2
+      },
+      {
+        "id": 2222,
+        "name": "여기어때 2222",
+        "thumbnail": "https://gccompany.co.kr/App/thumbnail/thumb_img_23.jpg",
+        "description": {
+          "imagePath": "https://gccompany.co.kr/App/image/img_23.jpg",
+          "subject": "숙박 예약가능",
+          "price": 25000
+        },
+        "rate": 9.1
+      },
+      {
+        "id": 2111,
+        "name": "여기어때 2111",
+        "thumbnail": "https://gccompany.co.kr/App/thumbnail/thumb_img_24.jpg",
+        "description": {
+          "imagePath": "https://gccompany.co.kr/App/image/img_24.jpg",
+          "subject": "대실/숙박 예약가능",
+          "price": 55000
+        },
+        "rate": 9.3
+      },
+      {
+        "id": 2233,
+        "name": "여기어때 2233",
+        "thumbnail": "https://gccompany.co.kr/App/thumbnail/thumb_img_25.jpg",
+        "description": {
+          "imagePath": "https://gccompany.co.kr/App/image/img_25.jpg",
+          "subject": "최저가보상",
+          "price": 30000
+        },
+        "rate": 4.5
+      },
+      {
+        "id": 2251,
+        "name": "여기어때 2251",
+        "thumbnail": "https://gccompany.co.kr/App/thumbnail/thumb_img_26.jpg",
+        "description": {
+          "imagePath": "https://gccompany.co.kr/App/image/img_26.jpg",
+          "subject": "즉시할인",
+          "price": 15000
+        },
+        "rate": 7.1
+      },
+      {
+        "id": 2129,
+        "name": "여기어때 2129",
+        "thumbnail": "https://gccompany.co.kr/App/thumbnail/thumb_img_27.jpg",
+        "description": {
+          "imagePath": "https://gccompany.co.kr/App/image/img_27.jpg",
+          "subject": "페이백",
+          "price": 15000
+        },
+        "rate": 7.2
+      },
+      {
+        "id": 3187,
+        "name": "여기어때 3187",
+        "thumbnail": "https://gccompany.co.kr/App/thumbnail/thumb_img_28.jpg",
+        "description": {
+          "imagePath": "https://gccompany.co.kr/App/image/img_28.jpg",
+          "subject": "엘리트",
+          "price": 20000
+        },
+        "rate": 7.3
+      },
+      {
+        "id": 3199,
+        "name": "여기어때 3199",
+        "thumbnail": "https://gccompany.co.kr/App/thumbnail/thumb_img_29.jpg",
+        "description": {
+          "imagePath": "https://gccompany.co.kr/App/image/img_29.jpg",
+          "subject": "할인예약",
+          "price": 40000
+        },
+        "rate": 7.7
+      },
+      {
+        "id": 3066,
+        "name": "여기어때 3066",
+        "thumbnail": "https://gccompany.co.kr/App/thumbnail/thumb_img_30.jpg",
+        "description": {
+          "imagePath": "https://gccompany.co.kr/App/image/img_30.jpg",
+          "subject": "모텔",
+          "price": 45000
+        },
+        "rate": 4.4
+      },
+      {
+        "id": 3091,
+        "name": "여기어때 3091",
+        "thumbnail": "https://gccompany.co.kr/App/thumbnail/thumb_img_31.jpg",
+        "description": {
+          "imagePath": "https://gccompany.co.kr/App/image/img_31.jpg",
+          "subject": "모텔, 호텔",
+          "price": 45000
+        },
+        "rate": 2.2
+      },
+      {
+        "id": 4000,
+        "name": "여기어때 4000",
+        "thumbnail": "https://gccompany.co.kr/App/thumbnail/thumb_img_32.jpg",
+        "description": {
+          "imagePath": "https://gccompany.co.kr/App/image/img_32.jpg",
+          "subject": "모텔, 호텔, 리조트",
+          "price": 45000
+        },
+        "rate": 1.1
+      },
+      {
+        "id": 4671,
+        "name": "여기어때 4671",
+        "thumbnail": "https://gccompany.co.kr/App/thumbnail/thumb_img_33.jpg",
+        "description": {
+          "imagePath": "https://gccompany.co.kr/App/image/img_33.jpg",
+          "subject": "모텔, 호텔, 리조트, 펜션",
+          "price": 15000
+        },
+        "rate": 3.2
+      },
+      {
+        "id": 2885,
+        "name": "여기어때 2885",
+        "thumbnail": "https://gccompany.co.kr/App/thumbnail/thumb_img_34.jpg",
+        "description": {
+          "imagePath": "https://gccompany.co.kr/App/image/img_34.jpg",
+          "subject": "모텔, 호텔, 리조트, 펜션, 캠핑",
+          "price": 20000
+        },
+        "rate": 4.5
+      },
+      {
+        "id": 3888,
+        "name": "여기어때 3888",
+        "thumbnail": "https://gccompany.co.kr/App/thumbnail/thumb_img_35.jpg",
+        "description": {
+          "imagePath": "https://gccompany.co.kr/App/image/img_35.jpg",
+          "subject": "모텔, 호텔, 리조트, 펜션, 캠핑, 글램핑",
+          "price": 9000
+        },
+        "rate": 4.6
+      },
+      {
+        "id": 2889,
+        "name": "여기어때 2889",
+        "thumbnail": "https://gccompany.co.kr/App/thumbnail/thumb_img_36.jpg",
+        "description": {
+          "imagePath": "https://gccompany.co.kr/App/image/img_36.jpg",
+          "subject": "모텔, 호텔, 리조트, 펜션, 캠핑, 글램핑, 게스트하우스",
+          "price": 5000
+        },
+        "rate": 5.1
+      },
+      {
+        "id": 2731,
+        "name": "여기어때 2731",
+        "thumbnail": "https://gccompany.co.kr/App/thumbnail/thumb_img_37.jpg",
+        "description": {
+          "imagePath": "https://gccompany.co.kr/App/image/img_37.jpg",
+          "subject": "모텔, 호텔, 리조트, 펜션, 캠핑, 글램핑, 게스트하우스, 액티비티",
+          "price": 0
+        },
+        "rate": 5.4
+      },
+      {
+        "id": 2712,
+        "name": "여기어때 2712",
+        "thumbnail": "https://gccompany.co.kr/App/thumbnail/thumb_img_38.jpg",
+        "description": {
+          "imagePath": "https://gccompany.co.kr/App/image/img_38.jpg",
+          "subject": "모텔, 호텔, 리조트, 펜션, 캠핑, 글램핑, 게스트하우스, 액티비티, 방탈출",
+          "price": 0
+        },
+        "rate": 5.9
+      },
+      {
+        "id": 2744,
+        "name": "여기어때 2744",
+        "thumbnail": "https://gccompany.co.kr/App/thumbnail/thumb_img_39.jpg",
+        "description": {
+          "imagePath": "https://gccompany.co.kr/App/image/img_39.jpg",
+          "subject": "모텔, 호텔, 리조트, 펜션, 캠핑, 글램핑, 게스트하우스, 액티비티, 방탈출, VR",
+          "price": 30000
+        },
+        "rate": 5.7
+      },
+      {
+        "id": 2523,
+        "name": "여기어때 2523",
+        "thumbnail": "https://gccompany.co.kr/App/thumbnail/thumb_img_40.jpg",
+        "description": {
+          "imagePath": "https://gccompany.co.kr/App/image/img_40.jpg",
+          "subject": "모텔, 호텔, 리조트, 펜션, 캠핑, 글램핑, 게스트하우스, 액티비티, 방탈출, VR, 워터파크",
+          "price": 15000
+        },
+        "rate": 5.8
+      }
+    ]
+  },
+  "code": 200
+}

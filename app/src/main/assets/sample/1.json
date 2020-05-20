@@ -1,0 +1,229 @@
+{
+  "msg": "성공",
+  "data": {
+    "totalCount": 43,
+    "product": [
+      {
+        "id": 1001,
+        "name": "내 집 같은 편안한 여기어때 숙소",
+        "thumbnail": "https://gccompany.co.kr/App/thumbnail/thumb_img_1.jpg",
+        "description": {
+          "imagePath": "https://gccompany.co.kr/App/image/img_1.jpg",
+          "subject": "합리적인 가격으로 안심, 청결, 내 집 같은 편암함을 제공합니다.",
+          "price": 30000
+        },
+        "rate": 9.9
+      },
+      {
+        "id": 1005,
+        "name": "따뜻한 분위기의 서비스와 현대적인 호텔",
+        "thumbnail": "https://gccompany.co.kr/App/thumbnail/thumb_img_2.jpg",
+        "description": {
+          "imagePath": "https://gccompany.co.kr/App/image/img_2.jpg",
+          "subject": "따뜻한 분위기의 서비스와 현대적인 호텔에서의 편안한 숙박이 되시길 바랍니다.",
+          "price": 15000
+        },
+        "rate": 9.8
+      },
+      {
+        "id": 1010,
+        "name": "여기어때 남산",
+        "thumbnail": "https://gccompany.co.kr/App/thumbnail/thumb_img_3.jpg",
+        "description": {
+          "imagePath": "https://gccompany.co.kr/App/image/img_3.jpg",
+          "subject": "남산은 서울특별시 중구와 용산구에 걸쳐있는 산이다. 높이는 해발 270.85m로서 서울의 중심부에 위치하여 서울의 상징이 되기도 한다. 정상에는 N서울타워가 있으며, 그 부근까지는 케이블카가 설치되어 있으며, 남산 1·2·3호 터널이 뚫려 있다.",
+          "price": 25000
+        },
+        "rate": 9.6
+      },
+      {
+        "id": 1211,
+        "name": "여기어때 대전",
+        "thumbnail": "https://gccompany.co.kr/App/thumbnail/thumb_img_4.jpg",
+        "description": {
+          "imagePath": "https://gccompany.co.kr/App/image/img_4.jpg",
+          "subject": "",
+          "price": 55000
+        },
+        "rate": 9.5
+      },
+      {
+        "id": 1233,
+        "name": "가나다라마바사아자차카타파하파타카차자아사바마라다나가",
+        "thumbnail": "https://gccompany.co.kr/App/thumbnail/thumb_img_5.jpg",
+        "description": {
+          "imagePath": "https://gccompany.co.kr/App/image/img_5.jpg",
+          "subject": "도보 이용 부탁합니다.",
+          "price": 30000
+        },
+        "rate": 9.2
+      },
+      {
+        "id": 1251,
+        "name": "여기어때 대구",
+        "thumbnail": "https://gccompany.co.kr/App/thumbnail/thumb_img_6.jpg",
+        "description": {
+          "imagePath": "https://gccompany.co.kr/App/image/img_6.jpg",
+          "subject": "체크인 15:00, 체크아웃 12:00",
+          "price": 15000
+        },
+        "rate": 8.5
+      },
+      {
+        "id": 1129,
+        "name": "여기어때 부산",
+        "thumbnail": "https://gccompany.co.kr/App/thumbnail/thumb_img_7.jpg",
+        "description": {
+          "imagePath": "https://gccompany.co.kr/App/image/img_7.jpg",
+          "subject": "해운대, 광안리, 송정",
+          "price": 15000
+        },
+        "rate": 7.5
+      },
+      {
+        "id": 1187,
+        "name": "여기어때 강남",
+        "thumbnail": "https://gccompany.co.kr/App/thumbnail/thumb_img_8.jpg",
+        "description": {
+          "imagePath": "https://gccompany.co.kr/App/image/img_8.jpg",
+          "subject": "강남역 도보 1분이내",
+          "price": 20000
+        },
+        "rate": 3.5
+      },
+      {
+        "id": 1199,
+        "name": "여기어때 당산",
+        "thumbnail": "https://gccompany.co.kr/App/thumbnail/thumb_img_9.jpg",
+        "description": {
+          "imagePath": "https://gccompany.co.kr/App/image/img_9.jpg",
+          "subject": "2호선, 9호선 이용가능",
+          "price": 40000
+        },
+        "rate": 2.5
+      },
+      {
+        "id": 1066,
+        "name": "여기어때 합정",
+        "thumbnail": "https://gccompany.co.kr/App/thumbnail/thumb_img_10.jpg",
+        "description": {
+          "imagePath": "https://gccompany.co.kr/App/image/img_10.jpg",
+          "subject": "",
+          "price": 45000
+        },
+        "rate": 7.54
+      },
+      {
+        "id": 1091,
+        "name": "파라다이스 호텔",
+        "thumbnail": "https://gccompany.co.kr/App/thumbnail/thumb_img_11.jpg",
+        "description": {
+          "imagePath": "https://gccompany.co.kr/App/image/img_11.jpg",
+          "subject": "",
+          "price": 45000
+        },
+        "rate": 0.0
+      },
+      {
+        "id": 1000,
+        "name": "발리 호텔",
+        "thumbnail": "https://gccompany.co.kr/App/thumbnail/thumb_img_12.jpg",
+        "description": {
+          "imagePath": "https://gccompany.co.kr/App/image/img_12.jpg",
+          "subject": "발리섬은 인도네시아의 섬으로 자와 섬 동쪽에 자리하고 있다. 관광지로 널리 알려져 있다. 인구는 약 310만 명이다. 소순다 열도에 속한 섬으로 자와 섬에서 북쪽으로 3.2 km 떨어져 있다. 길이 153 km, 폭 112 km 크기로 면적은 5,700 km²이다.",
+          "price": 45000
+        },
+        "rate": 9.4
+      },
+      {
+        "id": 1671,
+        "name": "여기어때 2성급",
+        "thumbnail": "https://gccompany.co.kr/App/thumbnail/thumb_img_13.jpg",
+        "description": {
+          "imagePath": "https://gccompany.co.kr/App/image/img_13.jpg",
+          "subject": "인근 명소 없음",
+          "price": 15000
+        },
+        "rate": 5.2
+      },
+      {
+        "id": 1885,
+        "name": "여기어때 3성급",
+        "thumbnail": "https://gccompany.co.kr/App/thumbnail/thumb_img_14.jpg",
+        "description": {
+          "imagePath": "https://gccompany.co.kr/App/image/img_14.jpg",
+          "subject": "",
+          "price": 20000
+        },
+        "rate": 2.9
+      },
+      {
+        "id": 1987,
+        "name": "여기어때 1987",
+        "thumbnail": "https://gccompany.co.kr/App/thumbnail/thumb_img_15.jpg",
+        "description": {
+          "imagePath": "https://gccompany.co.kr/App/image/img_15.jpg",
+          "subject": "만원이하 할인중",
+          "price": 9000
+        },
+        "rate": 3.7
+      },
+      {
+        "id": 1889,
+        "name": "여기어때 호텔",
+        "thumbnail": "https://gccompany.co.kr/App/thumbnail/thumb_img_16.jpg",
+        "description": {
+          "imagePath": "https://gccompany.co.kr/App/image/img_16.jpg",
+          "subject": "",
+          "price": 5000
+        },
+        "rate": 8.25
+      },
+      {
+        "id": 1731,
+        "name": "Goodchoice",
+        "thumbnail": "https://gccompany.co.kr/App/thumbnail/thumb_img_17.jpg",
+        "description": {
+          "imagePath": "https://gccompany.co.kr/App/image/img_17.jpg",
+          "subject": "abouthere",
+          "price": 0
+        },
+        "rate": 9.55
+      },
+      {
+        "id": 1712,
+        "name": "공짜 숙소",
+        "thumbnail": "https://gccompany.co.kr/App/thumbnail/thumb_img_18.jpg",
+        "description": {
+          "imagePath": "https://gccompany.co.kr/App/image/img_18.jpg",
+          "subject": "무료 이벤트",
+          "price": 0
+        },
+        "rate": 9.99
+      },
+      {
+        "id": 1744,
+        "name": "여기어때 증평",
+        "thumbnail": "https://gccompany.co.kr/App/thumbnail/thumb_img_19.jpg",
+        "description": {
+          "imagePath": "https://gccompany.co.kr/App/image/img_19.jpg",
+          "subject": "충청북도의 중심에 위치하고 인삼과 홍삼이 있어 건강한 도시 좌구산과, 보강천이 있어 레저와 휴양을 마음껏 누릴 수 있는 고장",
+          "price": 30000
+        },
+        "rate": 9.75
+      },
+      {
+        "id": 1523,
+        "name": "여기어때 서울",
+        "thumbnail": "https://gccompany.co.kr/App/thumbnail/thumb_img_20.jpg",
+        "description": {
+          "imagePath": "https://gccompany.co.kr/App/image/img_20.jpg",
+          "subject": "주차장 없음",
+          "price": 15000
+        },
+        "rate": 5.45
+      }
+    ]
+  },
+  "code": 200
+}

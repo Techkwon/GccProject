@@ -52,8 +52,34 @@ class PlacesViewModel(
             pagedList = livePagedList,
             networkState = sourceFactory.sourceLiveData.switchMap { it.networkState },
             retry = { sourceFactory.sourceLiveData.value?.retryAllFailed() }
+
+//            val boundaryCallback = PlaceBoundaryCallback(
+//            gccService = api,
+//            handleResponse = this::insertResult,
+//            ioExecutor = NETWORK_IO,
+//            pageSize = 20
+//        )
+//
+//        val livePagedList = placeDao.allPlaces().toLiveData(
+//            pageSize = 20,
+//            boundaryCallback = boundaryCallback
+//        )
+//
+//        return Listing(
+//            pagedList = livePagedList,
+//            networkState = boundaryCallback.networkState,
+//            retry = { boundaryCallback.helper.retryAllFailed() }
+//        )
         )
     }
+
+//    private fun insertResult(body: GccResponse?) {
+//        body?.let {
+//            it.data.product.let { places ->
+//                placeDao.insert(places)
+//            }
+//        }
+//    }
 
     fun getSavedPlaces(): LiveData<List<Place>> {
         return placeDao.favoritePlacesByTimeAsc()

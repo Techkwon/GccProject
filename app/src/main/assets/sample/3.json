@@ -1,0 +1,42 @@
+{
+  "msg": "성공",
+  "data": {
+    "totalCount": 43,
+    "product": [
+      {
+        "id": 4001,
+        "name": "여기어때 해남",
+        "thumbnail": "https://gccompany.co.kr/App/thumbnail/thumb_img_41.jpg",
+        "description": {
+          "imagePath": "https://gccompany.co.kr/App/image/img_41.jpg",
+          "subject": "모텔, 호텔, 리조트, 펜션, 캠핑, 글램핑, 게스트하우스, 액티비티, 방탈출, VR, 워터파크, 아웃도어",
+          "price": 30000
+        },
+        "rate": 10.0
+      },
+      {
+        "id": 5005,
+        "name": "여기어때 땅끝마을",
+        "thumbnail": "https://gccompany.co.kr/App/thumbnail/thumb_img_42.jpg",
+        "description": {
+          "imagePath": "https://gccompany.co.kr/App/image/img_42.jpg",
+          "subject": "모텔, 호텔, 리조트, 펜션, 캠핑, 글램핑, 게스트하우스, 액티비티, 방탈출, VR, 워터파크, 아웃도어, 테마카페",
+          "price": 15000
+        },
+        "rate": 0.2
+      },
+      {
+        "id": 9010,
+        "name": "여기어때 땅끝숙소",
+        "thumbnail": "https://gccompany.co.kr/App/thumbnail/thumb_img_43.jpg",
+        "description": {
+          "imagePath": "https://gccompany.co.kr/App/image/img_43.jpg",
+          "subject": "모텔, 호텔, 리조트, 펜션, 캠핑, 글램핑, 게스트하우스, 액티비티, 방탈출, VR, 워터파크, 아웃도어, 테마카페, 낚시",
+          "price": 25000
+        },
+        "rate": 1.9
+      }
+    ]
+  },
+  "code": 200
+}

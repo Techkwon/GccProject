@@ -19,4 +19,7 @@ interface FavoritePlaceDao {
 
     @Delete
     suspend fun delete(place: Place)
+
+    @Insert(onConflict = REPLACE)
+    fun insert(places: List<Place>)
 }
