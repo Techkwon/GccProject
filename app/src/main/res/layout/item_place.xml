@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/total_places_holder"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_thumbnail_holder"
+        android:layout_width="@dimen/width_100"
+        android:layout_height="@dimen/height_100"
+        app:cardCornerRadius="6dp"
+        android:layout_marginStart="@dimen/margin_10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            tools:srcCompat="@tools:sample/backgrounds/scenic[7]" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="@dimen/height_100"
+        app:layout_constraintStart_toEndOf="@+id/cv_thumbnail_holder"
+        android:layout_margin="@dimen/margin_10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_place_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/text_size_22"
+            android:maxLines="1"
+            android:ellipsize="end"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_star"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10"
+            app:layout_constraintTop_toBottomOf="@id/tv_place_name"
+            app:layout_constraintStart_toStartOf="parent"
+            android:src="@drawable/ic_star_yellow"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_place_rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10"
+            android:layout_marginStart="@dimen/margin_10"
+            app:layout_constraintTop_toBottomOf="@id/tv_place_name"
+            app:layout_constraintStart_toEndOf="@+id/iv_star"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/text_size_15"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_saved_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10"
+            app:layout_constraintTop_toBottomOf="@+id/iv_star"
+            app:layout_constraintStart_toStartOf="parent"
+            android:textSize="15sp"/>
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/ib_bookmark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tv_place_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:background="@drawable/bookmark_selector"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

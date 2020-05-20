@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/menu_rate_down"
+        android:title="@string/sort_rate_down"
+        tools:ignore="AppCompatResource" />
+
+    <item
+        android:id="@+id/menu_rate_up"
+        android:title="@string/sort_rate_up"
+        tools:ignore="AppCompatResource" />
+
+    <item
+        android:id="@+id/menu_latest_down"
+        android:title="@string/sort_latest_down"
+        tools:ignore="AppCompatResource" />
+
+    <item
+        android:id="@+id/menu_latest_up"
+        android:title="@string/sort_latest_up"
+        tools:ignore="AppCompatResource" />
+</menu>

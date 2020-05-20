@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">GccProject</string>
+    <string name="please_check_network_connection">인터넷 연결 상태를 확인해주세요 :(</string>
+    <string name="loading_data">데이터를 불러오는 중..</string>
+    <string name="sort_rate_down">평점순(내림차순)</string>
+    <string name="sort_rate_up">평점순(오름차순)</string>
+    <string name="sort_latest_down">최근등록순(내림차순)</string>
+    <string name="sort_latest_up">최근등록순(오름차순)</string>
+    <string name="gcc_success_msg">성공</string>
+    <string name="wrong_with_request_msg">요청에 문제가 있습니다 :(</string>
+    <string name="unknown_error_msg">unknown error</string>
+    <string name="somerthing_went_wrong_msg">뭔가 문제가 생겼습니다 :(</string>
+    <string name="number_of_favorite">%s개의 즐겨찾기</string>
+    <string name="saved_at">%s에 저장됨</string>
+</resources>
