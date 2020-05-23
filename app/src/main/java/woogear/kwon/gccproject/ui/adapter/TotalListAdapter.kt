@@ -85,7 +85,7 @@ class TotalListAdapter(
         fun bind(place: Place?) {
             this.place = place
             tvName.text = place?.name ?: "로딩중"
-            tvRate.text = place?.rate ?: "0.0"
+            tvRate.text = place?.rate.toString()
             if (place?.thumbnail?.startsWith("http") == true) {
                 glide.load(place.thumbnail).into(ivThumbnail)
             }

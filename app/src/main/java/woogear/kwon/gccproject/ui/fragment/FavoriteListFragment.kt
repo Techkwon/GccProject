@@ -17,6 +17,8 @@ import java.lang.Exception
 
 class FavoriteListFragment : BaseFragment() {
     private lateinit var adapter: FavoriteListAdapter
+    private lateinit var wrapper: ContextThemeWrapper
+    private lateinit var popup: PopupMenu
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         viewModel = activity?.run {  ViewModelProviders.of(this).get(PlacesViewModel::class.java) } ?: throw Exception("Invalid Activity")
@@ -26,6 +28,7 @@ class FavoriteListFragment : BaseFragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         initAdapter()
+        initSort()
         getFavoritePlaces()
         setViewClickListener()
     }
@@ -50,14 +53,14 @@ class FavoriteListFragment : BaseFragment() {
     }
 
     private fun setViewClickListener() {
-        this.constraint_sort_holder.setOnClickListener { sortList(this.iv_arrow_down) }
+        this.constraint_sort_holder.setOnClickListener { popup.show() }
     }
 
-    private fun sortList(view: View) {
-        val wrapper = ContextThemeWrapper(attachedActivity, R.style.Widget_AppCompat_Light_PopupMenu)
-        val popup = PopupMenu(wrapper, view, Gravity.CENTER)
-
+    private fun initSort() {
+        wrapper = ContextThemeWrapper(attachedActivity, R.style.Widget_AppCompat_Light_PopupMenu)
+        popup = PopupMenu(wrapper, this.constraint_sort_holder, Gravity.CENTER)
         popup.menuInflater.inflate(R.menu.menu_favorite_sort, popup.menu)
+
         popup.setOnMenuItemClickListener { item ->
             when (item.itemId) {
                 R.id.menu_rate_down -> {
@@ -82,7 +85,6 @@ class FavoriteListFragment : BaseFragment() {
             }
             true
         }
-        popup.show()
     }
 
     private fun sortKeyword(keyword: String) {

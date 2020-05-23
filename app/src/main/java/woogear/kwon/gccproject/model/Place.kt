@@ -10,7 +10,7 @@ data class Place(
     val name: String,
     val thumbnail: String,
     @field:Embedded val description: PlaceDetail,
-    val rate: String
+    val rate: Float
 ) : Serializable {
     var saveTime: Long = -1
 

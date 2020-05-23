@@ -14,7 +14,6 @@ import com.bumptech.glide.RequestManager
 import kotlinx.android.synthetic.main.item_place.view.*
 import woogear.kwon.gccproject.R
 import woogear.kwon.gccproject.model.Place
-import woogear.kwon.gccproject.utils.CommonUtils
 import woogear.kwon.gccproject.utils.CommonUtils.callPlaceInfoActivity
 import woogear.kwon.gccproject.utils.SortType
 import woogear.kwon.gccproject.viewmodel.PlacesViewModel
@@ -86,7 +85,7 @@ class FavoriteListAdapter(
 
             glide.load(place.thumbnail).into(ivThumbnail)
             tvName.text = place.name
-            tvRate.text = place.rate
+            tvRate.text = place.rate.toString()
             ibBookMark.isSelected = true
         }
 

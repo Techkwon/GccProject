@@ -6,7 +6,6 @@ import androidx.paging.toLiveData
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import woogear.kwon.gccproject.dao.PlaceDb
-import woogear.kwon.gccproject.model.GccResponse
 import woogear.kwon.gccproject.model.Place
 import woogear.kwon.gccproject.paging.PlacesDataSourceFactory
 import woogear.kwon.gccproject.utils.APIClient

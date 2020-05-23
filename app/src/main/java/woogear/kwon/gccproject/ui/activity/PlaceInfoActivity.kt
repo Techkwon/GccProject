@@ -6,7 +6,6 @@ import androidx.activity.viewModels
 import androidx.lifecycle.AbstractSavedStateViewModelFactory
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
-import androidx.recyclerview.widget.GridLayoutManager
 import com.bumptech.glide.Glide
 import kotlinx.android.synthetic.main.activity_place_info.*
 import woogear.kwon.gccproject.R
@@ -57,7 +56,7 @@ class PlaceInfoActivity : AppCompatActivity() {
             .into(this.iv_place_original_image)
         this.tv_place_info_name.text = place.name
         this.ib_place_info_bookmark.isSelected = placeIsSaved
-        this.tv_rate_place_info.text = place.rate
+        this.tv_rate_place_info.text = place.rate.toString()
         val formattedAmount = String.format("%,d", place.description.price)
         this.tv_place_info_price.text = String.format("%s원", formattedAmount)
         this.tv_subject.text = place.description.subject
