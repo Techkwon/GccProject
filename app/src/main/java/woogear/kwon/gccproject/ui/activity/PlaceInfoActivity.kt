@@ -45,7 +45,7 @@ class PlaceInfoActivity : AppCompatActivity() {
     }
 
     private fun getIntentData() {
-        place = intent.getSerializableExtra(EXTRA_PLACE_OBJECT) as Place
+        place = intent.getParcelableExtra(EXTRA_PLACE_OBJECT) as Place
         placeIsSaved = intent.getBooleanExtra(EXTRA_PLACE_IS_SAVED, false)
     }
 

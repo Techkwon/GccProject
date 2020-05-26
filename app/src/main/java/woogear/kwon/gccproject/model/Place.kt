@@ -1,8 +1,11 @@
 package woogear.kwon.gccproject.model
 
+import android.os.Parcelable
 import androidx.room.*
-import java.io.Serializable
+import kotlinx.android.parcel.IgnoredOnParcel
+import kotlinx.android.parcel.Parcelize
 
+@Parcelize
 @Entity
 data class Place(
     @PrimaryKey(autoGenerate = true)
@@ -11,12 +14,14 @@ data class Place(
     val thumbnail: String,
     @field:Embedded val description: PlaceDetail,
     val rate: Float
-) : Serializable {
+) : Parcelable {
+    @IgnoredOnParcel
     var saveTime: Long = -1
 
+    @Parcelize
     data class PlaceDetail(
         val imagePath: String,
         val subject: String,
         val price: Int
-    ) : Serializable
+    ) : Parcelable
 }
