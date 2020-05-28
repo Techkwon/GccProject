@@ -12,6 +12,7 @@ import woogear.kwon.gccproject.R
 import woogear.kwon.gccproject.model.Place
 import woogear.kwon.gccproject.utils.Constants.EXTRA_PLACE_IS_SAVED
 import woogear.kwon.gccproject.utils.Constants.EXTRA_PLACE_OBJECT
+import woogear.kwon.gccproject.viewmodel.PlaceInfoViewModel
 import woogear.kwon.gccproject.viewmodel.PlacesViewModel
 
 @Suppress("NULLABILITY_MISMATCH_BASED_ON_JAVA_ANNOTATIONS")
@@ -19,11 +20,11 @@ class PlaceInfoActivity : AppCompatActivity() {
     private lateinit var place: Place
     private var placeIsSaved = false
 
-    private val viewModel: PlacesViewModel by viewModels {
+    private val viewModel: PlaceInfoViewModel by viewModels {
         object : AbstractSavedStateViewModelFactory(this, null) {
             override fun <T : ViewModel?> create(key: String, modelClass: Class<T>, handle: SavedStateHandle): T {
                 @Suppress("UNCHECKED_CAST")
-                return PlacesViewModel(application, handle) as T
+                return PlaceInfoViewModel(application) as T
             }
         }
     }
